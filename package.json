@@ -1,0 +1,25 @@
+{
+  "name": "CCBot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Boll/CCBotTeste.git"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
+  "author": "Daniel-Boll",
+  "scripts": {
+    "start": "node ./src/bot.js",
+    "dev": "node ./src/bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "core-js": "^3.8.0"
+  }
+}
