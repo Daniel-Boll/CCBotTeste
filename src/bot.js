@@ -1,5 +1,3 @@
-require("core-js/stable");
-require("regenerator-runtime/runtime");
 require("dotenv").config();
 
 const Discord = require("discord.js");
