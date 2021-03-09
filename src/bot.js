@@ -11,7 +11,9 @@ const reactionHandler = require("./reactions");
 client.login(process.env.BOT_TOKEN);
 
 client.on("ready", () => {
-  client.user.setActivity("https://git.io/d.js-heroku", { type: "WATCHING" });
+  client.user.setActivity("https://github.com/Daniel-Boll/CCBotTeste", {
+    type: "WATCHING",
+  });
 });
 
 client.on("message", (message) => {

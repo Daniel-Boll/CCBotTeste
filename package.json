@@ -11,7 +11,7 @@
     "heroku",
     "discord.js"
   ],
-  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
+  "homepage": "https://github.com/Daniel-Boll/CCBotTeste#readme",
   "author": "Daniel-Boll",
   "scripts": {
     "start": "node ./src/bot.js",
