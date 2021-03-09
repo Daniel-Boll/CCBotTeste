@@ -10,11 +10,11 @@ const reactionHandler = require("./reactions");
 
 client.login(process.env.BOT_TOKEN);
 
-client.on("ready", () => {
-  client.user.setActivity("https://github.com/Daniel-Boll/CCBotTeste", {
-    type: "WATCHING",
-  });
-});
+// client.on("ready", () => {
+//   client.user.setActivity("https://github.com/Daniel-Boll/CCBotTeste", {
+//     type: "WATCHING",
+//   });
+// });
 
 client.on("message", (message) => {
   if (message.content.startsWith("!")) {
